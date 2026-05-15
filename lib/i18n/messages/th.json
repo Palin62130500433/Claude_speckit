@@ -1,0 +1,51 @@
+{
+  "companyProfile": {
+    "title": "ข้อมูลบริษัท",
+    "fields": {
+      "registeredNo": "เลขทะเบียน",
+      "setSymbol": "สัญลักษณ์ SET",
+      "tradeName": "ชื่อการค้า",
+      "registrationType": "ประเภทการจดทะเบียน",
+      "companyStatus": "สถานะบริษัท",
+      "registeredCapitalBaht": "ทุนจดทะเบียนล่าสุด (บาท)",
+      "majorShareholderNationality": "สัญชาติผู้ถือหุ้นรายใหญ่",
+      "yearInBusiness": "อายุธุรกิจ",
+      "registrationDate": "วันที่จดทะเบียน",
+      "businessAddress": "ที่อยู่ประกอบธุรกิจ",
+      "telephone": "โทรศัพท์"
+    },
+    "values": {
+      "yearInBusinessUnit": "ปี",
+      "notAvailable": "ไม่มีข้อมูล"
+    },
+    "status": {
+      "ACTIVE": "ยังดำเนินกิจการอยู่",
+      "DISSOLVED": "เลิกบริษัท",
+      "STRUCK_OFF": "ถูกขีดชื่อออก",
+      "SUSPENDED": "ระงับการดำเนินงาน",
+      "UNKNOWN": "ไม่ทราบสถานะ"
+    },
+    "actions": {
+      "edit": "แก้ไข",
+      "save": "บันทึก",
+      "cancel": "ยกเลิก",
+      "retry": "ลองใหม่"
+    },
+    "errors": {
+      "loadFailed": "ไม่สามารถโหลดข้อมูลได้ในขณะนี้ กรุณาลองใหม่อีกครั้ง",
+      "saveFailed": "ไม่สามารถบันทึกข้อมูลได้ กรุณาลองใหม่อีกครั้ง",
+      "notFound": "ไม่พบข้อมูลบริษัทที่ต้องการ",
+      "unsavedChanges": "มีข้อมูลที่ยังไม่ได้บันทึก ต้องการออกจากหน้านี้หรือไม่?"
+    },
+    "validation": {
+      "required": "กรุณากรอกข้อมูล",
+      "maxLength": "ข้อมูลต้องไม่เกิน {max} ตัวอักษร",
+      "nonNegative": "ค่าต้องไม่ต่ำกว่า 0"
+    }
+  },
+  "notFound": {
+    "title": "ไม่พบข้อมูลบริษัท",
+    "description": "ไม่พบข้อมูลบริษัทที่คุณค้นหา กรุณาตรวจสอบเลขทะเบียนและลองใหม่อีกครั้ง",
+    "backLink": "กลับสู่หน้าหลัก"
+  }
+}

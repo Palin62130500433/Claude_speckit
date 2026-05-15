@@ -1,0 +1,51 @@
+{
+  "companyProfile": {
+    "title": "Company Profile",
+    "fields": {
+      "registeredNo": "Registered No.",
+      "setSymbol": "SET Symbol",
+      "tradeName": "Trade Name",
+      "registrationType": "Registration Type",
+      "companyStatus": "Company Status",
+      "registeredCapitalBaht": "Latest Registered Capital (Baht)",
+      "majorShareholderNationality": "Major Shareholder's Nationality",
+      "yearInBusiness": "Year in Business",
+      "registrationDate": "Registration Date",
+      "businessAddress": "Business Address",
+      "telephone": "Telephone"
+    },
+    "values": {
+      "yearInBusinessUnit": "years",
+      "notAvailable": "–"
+    },
+    "status": {
+      "ACTIVE": "Active",
+      "DISSOLVED": "Dissolved",
+      "STRUCK_OFF": "Struck Off",
+      "SUSPENDED": "Suspended",
+      "UNKNOWN": "Unknown"
+    },
+    "actions": {
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel",
+      "retry": "Try Again"
+    },
+    "errors": {
+      "loadFailed": "Unable to load company information. Please try again.",
+      "saveFailed": "Unable to save changes. Please try again.",
+      "notFound": "Company not found.",
+      "unsavedChanges": "You have unsaved changes. Are you sure you want to leave?"
+    },
+    "validation": {
+      "required": "This field is required",
+      "maxLength": "Must not exceed {max} characters",
+      "nonNegative": "Value must be 0 or greater"
+    }
+  },
+  "notFound": {
+    "title": "Company Not Found",
+    "description": "The company you are looking for could not be found. Please check the registered number and try again.",
+    "backLink": "Back to Home"
+  }
+}
